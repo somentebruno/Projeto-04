@@ -13,10 +13,41 @@ ul {
 body {
   background: #ECE9FD;
   padding: 3.75rem 1.4375rem 4.125rem;
+  font-family: Epilogue, sans-serif;
 }
 
 h1 {
-  font-family: Epilogue, sans-serif;
   font-size: 2.5rem;
   line-height: 3rem;
+  font-weight: 800;
+  color: #090039;
+  margin-bottom: 0.9375rem;
+}
+
+main p:first-child{
+  color: #7158EF;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 2rem;
+  margin-bottom: 1.0625rem;
+}
+
+h1 + p{
+  color: rgba(10, 0, 57, 0.64);
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+main a {
+  color: #090039;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: #7158EF;
+}
+
+ul {
+  margin-top: 4.5rem;
 }
