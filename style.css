@@ -16,6 +16,11 @@ body {
   font-family: Epilogue, sans-serif;
 }
 
+main {
+  max-width: 20.625rem;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 2.5rem;
   line-height: 3rem;
@@ -31,6 +36,7 @@ main p:first-child{
   line-height: 2rem;
   margin-bottom: 1.0625rem;
 }
+
 
 h1 + p{
   color: rgba(10, 0, 57, 0.64);
@@ -50,4 +56,54 @@ a:hover {
 
 ul {
   margin-top: 4.5rem;
+}
+
+ul li {
+  color: #090039;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+
+  max-width: 16.0625rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.375rem;
+}
+
+ul li + li {
+      margin-top: 2rem;
+    }
+
+ul li span {
+  color: #090039;
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 5rem;
+  letter-spacing: -2px;
+  
+}
+
+@media (min-width: 700px) {
+
+    body {
+      padding: 8rem;
+    }
+    main {
+      max-width: 1020px;
+      display: flex;
+      flex-direction: row;
+      gap: 10rem;
+    }
+    main > div {
+      max-width: 30.25rem;
+    }
+
+    ul li {
+      gap: 3.375rem;
+      max-width: 450px;
+      align-items: center;
+
+    }
+
+   
 }
